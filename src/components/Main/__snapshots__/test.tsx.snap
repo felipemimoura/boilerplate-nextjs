@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Main Should be render the heading 1`] = `
-<main>
-  <h1>
-    boilerplate
+<main
+  class="styles__Wrapper-huphx dytNjd"
+>
+  <img
+    alt="Image de um átomo escrito react avançado"
+    class="styles__Logo-bSHpeR gakljY"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="styles__Title-cMrmNu gPVnwN"
+  >
+    Boilerplate para projetos NextJS
   </h1>
+  <h2
+    class="styles__Description-elbkTI fokdNY"
+  >
+    Um boilerplate para ser utilizados em projetos com NextJS
+  </h2>
+  <img
+    alt="Desenvolvedor de frente para um computador"
+    class="styles__Hero-gKsHuW kTFsau"
+    src="/img/hero-illustration.svg"
+  />
 </main>
 `
