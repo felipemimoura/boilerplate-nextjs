@@ -1,14 +1,15 @@
 import * as S from './styles'
-const Main = () => (
+const Main = ({
+  title = 'Boilerplate para projetos NextJS',
+  description = 'Um boilerplate para ser utilizados em projetos com NextJS'
+}) => (
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
       alt="Image de um átomo escrito react avançado"
     />
-    <S.Title>Boilerplate para projetos NextJS</S.Title>
-    <S.Description>
-      Um boilerplate para ser utilizados em projetos com NextJS
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
 
     <S.Hero
       src="/img/hero-illustration.svg"
